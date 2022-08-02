@@ -18,7 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 10px;
+  padding: 8px 16px;
 }
 
 input {
@@ -31,6 +31,10 @@ input {
 
 ul {
   list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
 a {
@@ -47,27 +51,17 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 5px;
-}
-
-.left-links,
-.right-links {
-  display: flex;
-  gap: 15px;
+  padding: 16px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  margin-top: auto;
-  margin-bottom: auto;
-
+  flex: 1;
 }
 
-.left-links {
-  padding: 0
-}
+
 
 
